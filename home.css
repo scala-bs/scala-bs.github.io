@@ -1,0 +1,180 @@
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { width: 100%; height: 100%; }
+
+body {
+	background: #e5554d;
+	font: 14px "Helvetica Neue", "Helvetica", sans-serif;
+	color: #333;
+	cursor: default;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+header {
+	position: relative;
+	background: #7fdff9;
+	height: 930px;
+	width: 100%;
+	overflow: hidden;
+}
+header h1 {
+	position: fixed;
+	top: 90px;
+	width: 100%;
+	color: #fff;
+	font-weight: 200;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.static #header h1 {
+	position: absolute;
+}
+header h1 strong {
+	color: #e5554d;
+	font-weight: 900;
+}
+header h1 small {
+	display: block;
+	font-weight: 900;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+header #scroll-down {
+	position: fixed;
+	top: 270px;
+	left: 50%;
+	margin-left: -110px;
+	width: 240px;
+	color: #51a8c0;
+	font-size: 16px;
+	background: url(images/down.png) no-repeat ;
+	padding: 0 0 0 25px;
+	background-size: auto 100%;
+}
+header .static #scroll-down {
+	position: absolute;
+}
+
+header .group1, .group2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+header #mountains2 { background-image: url("images/mountains2.png"); background-size: 1200px 200px; }
+header #mountains { background-image: url("images/mountains.png"); background-size: 1200px 287px; }
+header #clouds3 { background-image: url("images/clouds3.png"); background-size:  1200px 287px; }
+header #clouds2 { background-image: url("images/clouds2.png"); background-size:  1200px 287px; }
+header #land { background-image: url("images/skyline-red.png"); background-size: 1000px 222px; background-repeat: no-repeat; background-position: center; }
+header #clouds { background-image: url("images/clouds.png"); background-size: 2000px 287px; }
+header #cloudsF { background-image: url("images/cloudsF.png"); background-size: 100% 500px; }
+
+
+header #clouds,
+header #clouds2,
+header #clouds3,
+header #cloudsF,
+header #land {
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	width: 1200px;
+	height: 287px;
+}
+header #mountains,
+header #mountains2 {
+	position: fixed;
+	left: 50%;
+	margin-left: -600px;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	width: 1200px;
+	height: 287px;
+}
+header .static #mountains,
+header .static #mountains2 {
+	position: absolute;
+}
+header #mountains2 {
+	height: 200px;
+}
+header #clouds {
+	top: 400px;
+	width: 2000px;
+	margin-left: -1000px;
+}
+header #clouds2 {
+	top: 400px;
+}
+header #clouds3 {
+	top: 400px;
+}
+header #m1 {
+	position: absolute;
+	top: 683px;
+	width: 100%;
+	height: 600px;
+	left: 0;
+	margin: 0;
+	background: #7fdff9;
+}
+header #m2 {
+	position: absolute;
+	top: 930px;
+	width: 100%;
+	height: 400px;
+	left: 0;
+	margin: 0;
+	background: #e5554d;
+}
+
+header #cloudsF {
+	top: 680px;
+	width: 100%;
+	height: 500px;
+	left: 0;
+	margin: 0;
+	z-index: 10;
+}
+header #mountains {
+	top: 300px;
+}
+header #mountains2 {
+	top: 300px;
+}
+
+header #land {
+	top: 711px;
+	width: 1500px;
+	height: 220px;
+	margin-left: -750px;
+}
+header .static #land {
+  z-index: 999;
+}
+
+article {
+  font: 15px "Helvetica Neue", "Helvetica", sans-serif;
+  line-height: 1.2;
+  margin: 5em auto;
+  width: 900px;
+  color: #fff;
+  text-align: justify;
+}
+
+article h2 {
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
