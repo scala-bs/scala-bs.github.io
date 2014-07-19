@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font: 14px "Helvetica Neue", "Helvetica", sans-serif;
+	background: #e5554d;
+	color: #333;
+	cursor: default;
+	-webkit-font-smoothing: antialiased; }
+
+header {
+	position: relative;
+	height: 930px;
+	width: 100%;
+  background: #7fdff9;
+  pointer-events: none;
+	overflow: hidden; }
+
+header h1 {
+  font-size: 60px;
+	position: fixed;
+	top: 90px;
+	width: 100%;
+	color: #fff;
+	font-weight: 200;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+	-webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/*.static #header h1 {
+	position: absolute; }*/
+
+header h1 strong {
+	color: #e5554d;
+	font-weight: 900; }
+
+header h1 small {
+	display: block;
+	font-weight: 900;
+	font-size: 18px;
+	text-transform: uppercase; }
+
+header #scroll-down {
+	position: fixed;
+	top: 270px;
+	left: 50%;
+	margin-left: -110px;
+	width: 240px;
+	color: #51a8c0;
+	font-size: 16px;
+	background: url(images/down.png) no-repeat ;
+	padding: 0 0 0 25px;
+	background-size: auto 100%; }
+
+/*header .static #scroll-down {
+	position: absolute; }*/
+
+header .group1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; }
+
+header #mountains2 {
+  background-image: url("images/mountains2.png");
+  background-size: 1200px 200px; }
+
+header #mountains {
+  background-image: url("images/mountains.png");
+  background-size: 1200px 287px; }
+
+header #clouds3 {
+  background-image: url("images/clouds3.png");
+  background-size: 1200px 287px; }
+
+header #clouds2 {
+  background-image: url("images/clouds2.png");
+  background-size: 1200px 287px; }
+
+header #land {
+  background-image: url("images/skyline-red.png");
+  background-size: 1000px 222px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+header #clouds {
+  background-image: url("images/clouds.png");
+  background-size: 2000px 287px; }
+
+header #cloudsF {
+  background-image: url("images/cloudsF.png");
+  background-size: 100% 500px; }
+
+header #clouds,
+header #clouds2,
+header #clouds3,
+header #cloudsF,
+header #land {
+	position: absolute;
+  margin-left: -600px;
+	left: 50%;
+	width: 1200px;
+	height: 287px;
+  -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+header #mountains,
+header #mountains2 {
+	position: fixed;
+  margin-left: -600px;
+	left: 50%;
+	width: 1200px;
+	height: 287px;
+  -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/*header .static #mountains,
+header .static #mountains2 {
+	position: absolute; }*/
+
+header #mountains2 {
+	height: 200px; }
+
+header #clouds {
+	top: 400px;
+	width: 2000px;
+	margin-left: -1000px; }
+
+header #clouds2 {
+	top: 400px; }
+
+header #clouds3 {
+	top: 400px; }
+
+header #m1 {
+	position: absolute;
+  margin: 0;
+	top: 683px;
+	width: 100%;
+	height: 600px;
+	left: 0;
+	background: #7fdff9; }
+
+header #m2 {
+	position: absolute;
+  margin: 0;
+	top: 930px;
+	left: 0;
+  width: 100%;
+	height: 400px;
+	background: #e5554d; }
+
+header #cloudsF {
+	margin: 0;
+  top: 680px;
+  left: 0;
+	width: 100%;
+	height: 500px;
+	z-index: 10; }
+
+header #mountains {
+	top: 300px; }
+
+header #mountains2 {
+	top: 300px; }
+
+header #land {
+	margin-left: -750px;
+  top: 711px;
+	width: 1500px;
+	height: 220px; }
+
+/*header .static #land {
+  z-index: 999; }*/
+
+article {
+  font: 0px "Helvetica Neue", "Helvetica", sans-serif;
+  line-height: 1.2;
+  margin: 5em auto;
+  width: 900px;
+  color: #fff;
+  text-align: justify; }
+
+article section:not(:target) {
+  display: none; }
+
+article section:target,
+article section:last-of-type {
+  display: inline-block; }
+
+article section:target ~ section:not(:target) {
+  display: none; }
+
+article section {
+  font-size: 15px;
+  padding: 0 0 2em 0;
+  vertical-align: top;
+  width: 600px; }
+
+article section h2 {
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center; }
+
+article section h2 a.flag {
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+  width: 30px;
+  height: 22px;
+  background-repeat: no-repeat; }
+
+article section h2 a.en {
+  background-image: url(images/en.png); }
+
+article section h2 a.de {
+  background-image: url(images/de.png); }
+
+article section a {
+  color: #364550; }
+
+article section dl {
+  margin: 1em 0;
+  padding: 0;
+}
+
+article section dl dt {
+  display: inline-block;
+  padding-right: 10px;
+  width: 90px;
+  font-style: italic;
+  text-align: right; }
+
+article section dl dt:after {
+  content: ":"; }
+
+article section dl dd {
+  display: inline-block;
+  padding: 0;
+  width: 500px;
+  font-weight: bold; }
+
+article nav {
+  font-size: 15px;
+  display: inline-block;
+  padding: 0 0 2em 0;
+  width: 300px;
+  vertical-align: top;
+  text-align: center; }
+
+article nav h3 {
+  font-size: 1.5em;
+  margin: 3em 0 5px 0;
+  text-align: center;
+}
+
+a.button {
+	display: inline-block;
+	margin: 0 0 20px 0;
+	padding: 20px 0;
+  width: 250px;
+	color: #e5554d;
+  font-size: 25px;
+	font-weight: 700;
+  text-align: center;
+  background: white;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 rgba(255,255,255,.8), 0 3px 4px rgba(0,0,0,.4);
+  text-decoration: none; }
+
+a.button:hover {
+	color: #364550; }
+
+a.button > span {
+  display: block; }
+
+a.button > small {
+  font-size: 12px;
+	display: block;
+	text-transform: uppercase;
+	opacity: .7; }
+  
+footer {
+  padding: 3em 0 2em 0;
+  color: white;
+  background-color: #364550; }
+
+footer div {
+  font-size: 0;
+  margin: 0 auto;
+  width: 900px; }
+
+p {
+  font-size: 15px;
+  margin: 0 0 1em 0;
+  text-align: justify; }
+
+footer div nav.column {
+  font-size: 15px;
+  margin-top: 2em;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  vertical-align: top; }
+
+footer div nav.column a.button {
+	color: #364550; }
+
+footer div nav.column a.button:hover {
+	color: #7fdff9; }

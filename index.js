@@ -1,51 +1,38 @@
-
-$(".flip-thing > li").each(function(i,el){
-	var number = parseFloat($(el).text());
-	$(el).html("").addClass("num-"+number);
-	$(el).append("<span class='none'/>");
-	for (var i=0;i<=number;i++){
-		$(el).append("<span class='back-"+i+"'/>");
-		$(el).append("<span class='num-"+i+"'/>");
-	}
-});
-
-
 ;(function(){
 
-window.requestAnimFrame = (function(){
-	return	window.requestAnimationFrame			 ||
-			window.webkitRequestAnimationFrame ||
-			window.mozRequestAnimationFrame		||
-			window.msRequestAnimationFrame		 ||
-			window.oRequestAnimationFrame
-})();
+  window.requestAnimFrame = (function(){
+    return window.requestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      window.oRequestAnimationFrame
+  })();
 
-window.vendor = "",
+  window.vendor = "",
 	div = document.createElement('div'),
-	props = ['transform', 'WebkitTransform',
-			'MozTransform', 'OTransform', 'msTransform'],
+	props = ['transform', 'WebkitTransform', 'MozTransform', 'OTransform', 'msTransform'],
 	i = 0,
 	cssTransform = false;
-while (props[i]) {
-	if (props[i] in div.style) {
-		cssTransform = true;
-		vendor = props[i].replace(/transform/i,'');
-		vendor = vendor.toLowerCase();
-		if(cssTransform && vendor) vendor = "-" + vendor + "-";
-		break;
-	}
-	i++;
-}
+  while (props[i]) {
+    if (props[i] in div.style) {
+      cssTransform = true;
+      vendor = props[i].replace(/transform/i,'');
+      vendor = vendor.toLowerCase();
+      if(cssTransform && vendor) vendor = "-" + vendor + "-";
+      break;
+    }
+    i++;
+  }
 
 
-if (!!('ontouchstart' in window) || !requestAnimFrame || !cssTransform) return false;
+  if (!!('ontouchstart' in window) || !requestAnimFrame || !cssTransform) return false;
 
-document.body.className = "animate";
+  document.body.className = "animate";
 
-var lastPosition = -10,
+  var lastPosition = -10,
 	wHeight = window.innerHeight,
 
-	title = $("#header h1"),
+	title = $("header h1"),
 	scrollDown = $("#scroll-down"),
 
 	steps = $("#steps"),
@@ -59,7 +46,7 @@ var lastPosition = -10,
 
 	group1 = $(".group1"),
 
-	land = $("#land"),
+//land = $("#land"),
 
 	flip = $(".flip-thing"),
 
@@ -87,9 +74,6 @@ var lastPosition = -10,
 
 			mountains.css(vendor+'transform', "translate3d(0, "+ (window.pageYOffset/-1.2) +"px,0)" );
 			mountains2.css(vendor+'transform', "translate3d(0, "+ (window.pageYOffset/-2) +"px,0)" );
-
-//			land.css(vendor+'transform', "translate3d(0, "+ (window.pageYOffset/-6) +"px,0)" )
-
 		} else {
 			title.css('opacity',0);
 			scrollDown.css('opacity',0);
@@ -111,25 +95,9 @@ var lastPosition = -10,
 		requestAnimFrame(loop);
 	};
 
-window.onresize = function(){
-	wHeight = window.innerHeight;
-}
-loop();
-
-}());
-
-;(function(){
-
-	// This one is different from the previous one:
-	window.requestAnimFrame = (function(){
-		return	window.requestAnimationFrame			 ||
-				window.webkitRequestAnimationFrame ||
-				window.mozRequestAnimationFrame		||
-				window.msRequestAnimationFrame		 ||
-				window.oRequestAnimationFrame			||
-				function(f){
-					setTimeout(f,60);
-				};
-	})();
+  window.onresize = function(){
+  	wHeight = window.innerHeight;
+  }
+  loop();
 
 }());
