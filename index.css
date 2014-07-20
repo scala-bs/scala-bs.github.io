@@ -233,7 +233,8 @@ article section dl dt {
   padding-right: 10px;
   width: 90px;
   font-style: italic;
-  text-align: right; }
+  text-align: right;
+  vertical-align: top; }
 
 article section dl dt:after {
   content: ":"; }
