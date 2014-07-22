@@ -214,10 +214,10 @@ article section h2 a.flag {
   height: 22px;
   background-repeat: no-repeat; }
 
-article section h2 a.en {
+article section h2 a.flag.en {
   background-image: url(images/en.png); }
 
-article section h2 a.de {
+article section h2 a.flag.de {
   background-image: url(images/de.png); }
 
 article section a {
@@ -225,8 +225,7 @@ article section a {
 
 article section dl {
   margin: 1em 0;
-  padding: 0;
-}
+  padding: 0; }
 
 article section dl dt {
   display: inline-block;
@@ -256,8 +255,7 @@ article nav {
 article nav h3 {
   font-size: 1.5em;
   margin: 3em 0 5px 0;
-  text-align: center;
-}
+  text-align: center; }
 
 a.button {
 	display: inline-block;
