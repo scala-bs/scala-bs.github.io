@@ -1,5 +1,5 @@
 name: Scala Enthusiasts Braunschweig
 highlighter: null
 permalink: /:categories/:title/
-port: 59414
+port: 8080
 exclude: [ Makefile, README.md ]
