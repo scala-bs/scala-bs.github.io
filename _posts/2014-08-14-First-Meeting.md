@@ -19,6 +19,12 @@ Further information can be found in this [flyer](http://scala-bs.de/meetings/Sca
 
 The most important dates for our first meeting are:
 
+<dl>
+    <dt>Date</dt><dd>Thursday, August 14th, 2014</dd>
+    <dt>Location</dt><dd>Mühlenpfordtstraße 23, Room IZ 161</dd>
+    <dt>Begin</dt><dd>6 PM</dd>
+</dl>
+
 We are looking forward to seeing you.
 Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) of TU Braunschweig for the location.
 If you want to learn more about Scala and us use the links at the bottom of this page.

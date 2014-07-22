@@ -13,13 +13,13 @@ layout: index
 <nav>
     <h3>Meetings</h3>
     {% assign num = 1 %}
-    {% for post in sorted_posts reversed %}
+    {% for post in sorted_posts %}
     {% if post.tags contains "meeting" %}
     {% assign num = num | plus:1 %}
     {% endif %}
     {% endfor %}
     
-    {% for post in sorted_posts reversed %}
+    {% for post in sorted_posts %}
     {% if post.tags contains "meeting" %}
     {% assign num = num | minus:1 %}
     <a href="#{{ post.a }}" class="button">

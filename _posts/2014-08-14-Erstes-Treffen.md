@@ -18,6 +18,12 @@ Weitere Informationen findet ihr in diesem [Flyer](http://scala-bs.de/meetings/S
 
 Die wichtigsten Eckdaten unseres ersten Treffens sind:
 
+<dl>
+    <dt>Datum</dt><dd>Donnerstag, 14. August 2014</dd>
+    <dt>Ort</dt><dd>Mühlenpfordtstraße 23, Raum IZ 161</dd>
+    <dt>Beginn</dt><dd>18:00 Uhr</dd>
+</dl>
+
 Wir freuen uns über jeden Teilnehmer.
 Unser besonderer Dank geht an den [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) der TU Braunschweig, der uns die Räumlichkeiten zur Verfügung stellt. 
 Wer mehr über uns erfahren möchte sollte sich die Links unter diesem Artikel ansehen.
