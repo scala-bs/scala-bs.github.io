@@ -2,38 +2,114 @@
 layout: index
 ---
 
-{% for pos in (1..100) %}
-    {% for post in site.posts %}
-        {% if post.pos == pos %}
-            <section id="{{ post.a }}">
-                <h2>{{ post.title }}{% if post.en != nil %}<a class="flag en" href="#{{ post.en }}"></a>{% elsif post.de != nil %}<a class="flag de" href="#{{ post.de }}"></a>{% endif %}</h2>
-                {{ post.content }}
-            </section>
-        {% endif %}
-    {% endfor %}
-{% endfor %}
+<article>
 
-<nav>
-    <h3>Meetings</h3>
-    {% assign num = 1 %}
-    {% for post in site.posts %}
-        {% if post.tags contains "meeting" %}
-            {% assign num = num | plus:1 %}
-        {% endif %}
-    {% endfor %}
-    
-    {% for pos in (1..100) %}
+    {% for pos in (0..100) %}
         {% for post in site.posts %}
-            {% assign rpos = 100 | minus:pos %}
-            {% if post.pos == rpos %}
-                {% if post.tags contains "meeting" %}
-                    {% assign num = num | minus:1 %}
-                    <a href="#{{ post.a }}" class="button">
-                        <span>Meeting #{{ num }}</span>
-                        <small>{{ post.date | date:"%B, %dth %Y" }}</small>
-                    </a>
+            {% if post.pos == pos %}
+                {% if post.a != nil %}
+                    <section id="{{ post.a }}">
+                        <h2>{{ post.title }}{% if post.en != nil %}<a class="flag en" href="#{{ post.en }}"></a>{% elsif post.de != nil %}<a class="flag de" href="#{{ post.de }}"></a>{% endif %}</h2>
+                        {{ post.content }}
+                    </section>
                 {% endif %}
             {% endif %}
         {% endfor %}
     {% endfor %}
-</nav>
+    
+    <nav>
+        <h3>Meetings</h3>
+        {% assign num = 1 %}
+        {% for post in site.posts %}
+            {% if post.tags contains "meeting" %}
+                {% assign num = num | plus:1 %}
+            {% endif %}
+        {% endfor %}
+        
+        {% for pos in (0..100) %}
+            {% for post in site.posts %}
+                {% assign rpos = 100 | minus:pos %}
+                {% if post.pos == rpos %}
+                    {% if post.tags contains "meeting" %}
+                        {% assign num = num | minus:1 %}
+                        <a href="#{{ post.a }}" class="button">
+                            <span>Meeting #{{ num }}</span>
+                            <small>{% if post.subtitle != nil %}{{ post.subtitle }}{% else %}{{ post.date | date:"%B, %dth %Y" }}{% endif %}</small>
+                        </a>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </nav>
+
+</article>
+
+<footer>
+    <div>
+        <p>
+            Do you want to know more?
+        </p>
+    </div>
+    <div>
+        <nav class="column">
+            
+            {% for pos in (0..100) %}
+                {% for post in site.posts %}
+                    {% if post.pos == pos %}
+                        {% if post.tags contains "col1" %}
+                            {% if post.link != nil %}
+                                <a target="_blank" href="{{ post.link }}" class="button">
+                            {% else %}
+                                <a href="#{{ post.a }}" class="button">
+                            {% endif %}
+                                <span>{{ post.title }}</span>
+                                <small>{{ post.subtitle }}</small>
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            
+        </nav>
+        <nav class="column">
+            
+            {% for pos in (0..100) %}
+                {% for post in site.posts %}
+                    {% if post.pos == pos %}
+                        {% if post.tags contains "col2" %}
+                            {% if post.link != nil %}
+                                <a target="_blank" href="{{ post.link }}" class="button">
+                            {% else %}
+                                <a href="#{{ post.a }}" class="button">
+                            {% endif %}
+                                <span>{{ post.title }}</span>
+                                <small>{{ post.subtitle }}</small>
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            
+        </nav>
+        <nav class="column">
+            
+            {% for pos in (0..100) %}
+                {% for post in site.posts %}
+                    {% if post.pos == pos %}
+                        {% if post.tags contains "col3" %}
+                            {% if post.link != nil %}
+                                <a target="_blank" href="{{ post.link }}" class="button">
+                            {% else %}
+                                <a href="#{{ post.a }}" class="button">
+                            {% endif %}
+                                <span>{{ post.title }}</span>
+                                <small>{{ post.subtitle }}</small>
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            
+        </nav>
+    </div>
+</footer>
