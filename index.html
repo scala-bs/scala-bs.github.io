@@ -12,6 +12,7 @@ layout: index
 {% endfor %}
 {% endcomment %}
 
+{% assign sorted_posts = site.posts | sort:"pos" %}
 {% for post in site.posts %}
 <section id="{{ post.a }}">
     <h2>{{ post.title }}{% if post.en != nil %}<a class="flag en" href="#{{ post.en }}"></a>{% elsif post.de != nil %}<a class="flag de" href="#{{ post.de }}"></a>{% endif %}</h2>
@@ -20,7 +21,7 @@ layout: index
 {% endfor %}
 
 <section id="meet">
-    <h2>First Meeting – {{ site.posts.size }}</h2>
+    <h2>First Meeting – {{ sorted_posts.size }}</h2>
     <p>
         We are the <b>Scala Enthusiasts Braunschweig</b> – we are enthusiastic users of the programming language Scala.
         Our goals are communicating our excitement to interested programmers and exchanging views on programming.
