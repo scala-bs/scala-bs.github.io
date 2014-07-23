@@ -15,27 +15,6 @@ layout: index
 
 <nav>
     <h3>Meetings</h3>
-    {% comment %}
-    {% assign num = 1 %}
-    {% for post in sorted_posts reversed %}
-    {% if post.tags contains "meeting" %}
-    {% assign num = num | plus:1 %}
-    {% endif %}
-    {% endfor %}
-    
-    {% for post in sorted_posts reversed %}
-    {% if post.tags contains "meeting" %}
-    {% assign num = num | minus:1 %}
-    <a href="#{{ post.a }}" class="button">
-        <span>Meeting #{{ num }}</span>
-        <small>{{ post.date | date:"%B, %dth %Y" }}</small>
-    </a>
-    {% endif %}
-    {% endfor %}
-    {% endcomment %}
-    
-    
-    
     {% assign num = 1 %}
     {% for post in site.posts %}
         {% if post.tags contains "meeting" %}
