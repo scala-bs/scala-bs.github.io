@@ -1,5 +1,4 @@
 ---
-layout: index
 pos: 1
 a: meeting1-de
 en: meeting1-en
