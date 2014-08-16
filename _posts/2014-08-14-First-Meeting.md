@@ -28,3 +28,25 @@ The most important dates for our first meeting are:
 We are looking forward to seeing you.
 Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) of TU Braunschweig for the location.
 If you want to learn more about Scala and us use the links at the bottom of this page.
+
+
+### Zusammenfassung
+
+Das erste Treffen ist vorbei und es ist Zeit unser Material zu posten und ein paar Gedanken loszuwerden.
+Ich muss sagen dass wir verblüfft waren von der großen Anzahl an Teilnehmern.
+Es ist wirklich ermutigend zu sehen, wie viele andere Programmierer (40!) ebenfalls an Scala interessiert sind.
+Wir hoffen, dass wir die meisten von euch nächsten Monat bei unserem zweiten Treffen wiedersehen werden!
+
+
+### Folien und Videos
+
+Ihr könnt auf unsere Folien auf zwei verschiedene Arten zugreifen:
+Über die PDFs unserer Vorträge oder die aufgenommenen Videos des ersten Treffens.
+
++   [Scala for Java Programmers](/slides/Meeting-1-Scala-for-Java-Programmers.pdf)
++   [Awesome Scala](/slides/Meeting-1-Awesome-Scala.pdf)
++   [Beyond Scala's Standard Library](/slides/Metting-1-Beyond-Scalas-Standard-Library.pdf)
+
++   [Scala for Java Programmers](/videos/Meeting-1-Scala-for-Java-Programmers.mp4)
++   [Awesome Scala](/videos/Meeting-1-Awesome-Scala.mp4)
++   [Beyond Scala's Standard Library](/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4)

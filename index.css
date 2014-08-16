@@ -220,6 +220,24 @@ article section h2 a.flag.en {
 article section h2 a.flag.de {
   background-image: url(images/de.png); }
 
+article section h3 {
+  margin: 1em 0; }
+
+article section ul {
+  padding-left: 2em; }
+
+article section a[href $= '.pdf'],
+article section a[href $= '.mp4'] {
+  padding-left: 24px;
+  background-repeat: no-repeat;
+  background-position: left middle; }
+
+article section a[href $= '.pdf'] {
+  background-image: url(/images/icon-pdf.gif); }
+
+article section a[href $= '.mp4'] {
+  background-image: url(/images/icon-film.gif); }
+
 article section a {
   color: #364550; }
 

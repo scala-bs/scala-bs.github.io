@@ -27,3 +27,25 @@ Die wichtigsten Eckdaten unseres ersten Treffens sind:
 Wir freuen uns über jeden Teilnehmer.
 Unser besonderer Dank geht an den [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) der TU Braunschweig, der uns die Räumlichkeiten zur Verfügung stellt. 
 Wer mehr über uns erfahren möchte sollte sich die Links unter diesem Artikel ansehen.
+
+
+### Conclusions
+
+The meeting is over and it is time to post our materials and afterthoughts.
+I have to say we were startled by the huge number of participants.
+It is encouraging to see so many other programmers (40!) interested in Scala.
+We really hope to see most of you again next month for our second meeting!
+
+
+### Slides and Videos
+
+You can access our sildes in two ways:
+The PDF files of our talks and the recorded videos from the first meeting.
+
++   [Scala for Java Programmers](/slides/Meeting-1-Scala-for-Java-Programmers.pdf)
++   [Awesome Scala](/slides/Meeting-1-Awesome-Scala.pdf)
++   [Beyond Scala's Standard Library](/slides/Metting-1-Beyond-Scalas-Standard-Library.pdf)
+
++   [Scala for Java Programmers](/videos/Meeting-1-Scala-for-Java-Programmers.mp4)
++   [Awesome Scala](/videos/Meeting-1-Awesome-Scala.mp4)
++   [Beyond Scala's Standard Library](/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4)
