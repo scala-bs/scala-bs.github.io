@@ -30,18 +30,18 @@ Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) 
 If you want to learn more about Scala and us use the links at the bottom of this page.
 
 
-### Zusammenfassung
+### Conclusions
 
-Das erste Treffen ist vorbei und es ist Zeit unser Material zu posten und ein paar Gedanken loszuwerden.
-Ich muss sagen dass wir verblüfft waren von der großen Anzahl an Teilnehmern.
-Es ist wirklich ermutigend zu sehen, wie viele andere Programmierer (40!) ebenfalls an Scala interessiert sind.
-Wir hoffen, dass wir die meisten von euch nächsten Monat bei unserem zweiten Treffen wiedersehen werden!
+The meeting is over and it is time to post our materials and afterthoughts.
+I have to say we were startled by the huge number of participants.
+It is encouraging to see so many other programmers (40!) interested in Scala.
+We really hope to see most of you again next month for our second meeting!
 
 
-### Folien und Videos
+### Slides and Videos
 
-Ihr könnt auf unsere Folien auf zwei verschiedene Arten zugreifen:
-Über die PDFs unserer Vorträge oder die aufgenommenen Videos des ersten Treffens.
+You can access our sildes in two ways:
+The PDF files of our talks and the recorded videos from the first meeting.
 
 +   [Scala for Java Programmers](/slides/Meeting-1-Scala-for-Java-Programmers.pdf)
 +   [Awesome Scala](/slides/Meeting-1-Awesome-Scala.pdf)
