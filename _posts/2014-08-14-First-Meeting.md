@@ -7,7 +7,8 @@ tags: meeting
 
 We are the **Scala Enthusiasts Braunschweig** – we are enthusiastic users of the programming language Scala.
 Our goals are communicating our excitement to interested programmers and exchanging views on programming.
-This is why we organize a meeting on **every second Thursday each month**.
+This is why we organize a meeting on approximately **every second Thursday each month**.
+At most meetings presentations are held but we will also have pair programming sessions and discussions.
 The first meeting will be held on **August 14th, 2014**.
 
 Contentwise, we will focus on a short introduction to Scala and provide an overview of its basics.
