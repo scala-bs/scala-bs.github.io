@@ -14,6 +14,7 @@ The second meeting will be held on **October 9th, 2014**.
 Contentwise, we will focus on basic Scala features with no prior knowledge needed.
 In our first talk **Functional Programming Basics in Scala** you will learn why functions are first-class citizens in Scala.
 The second talk about **Implicit Functions and Parameters in Scala** tells you about the highly flexible implicits that make Scala feel like a dynamically typed language.
+Further information can be found in this [flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-10-09.pdf).
 
 <dl>
     <dt>Date</dt><dd>Thursday, October 9th, 2014</dd>

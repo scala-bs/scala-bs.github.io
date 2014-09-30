@@ -14,6 +14,7 @@ Inhaltlich werden wir uns auf Basisfeatures von Scala konzentrieren.
 Dazu werden keinerlei besondere Vorkenntnisse nötig sein.
 In unserem ersten Vortrag **Functional Programming Basics in Scala** werdet ihr erfahren, warum Funktionen in Scala first class citizens sind.
 Der zweite Vortrag wird sich mit **Implicit Functions and Parameters in Scala** beschäftigen und führt Scalas höchst flexible Implicits ein, mit denen sich Scala wie eine dynamisch getypte Programmiersprache anfühlt.
+Weitere Informationen findet ihr in diesem [Flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-10-09.pdf).
 
 <dl>
     <dt>Datum</dt><dd>Donnerstag, 9. Oktober 2014</dd>
