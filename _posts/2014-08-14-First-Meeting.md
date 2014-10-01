@@ -39,15 +39,31 @@ It is encouraging to see so many other programmers (40!) interested in Scala.
 We really hope to see most of you again next month for our second meeting!
 
 
-### Slides and Videos
+### Scala for Java Programmers
 
-You can access our sildes in two ways:
-The PDF files of our talks and the recorded videos from the first meeting.
+<video width="598" height="480" controls="controls">
+    <source src="/videos/Meeting-1-Scala-for-Java-Programmers.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
 
-+   [Scala for Java Programmers](/slides/Meeting-1-Scala-for-Java-Programmers.pdf)
-+   [Awesome Scala](/slides/Meeting-1-Awesome-Scala.pdf)
-+   [Beyond Scala's Standard Library](/slides/Metting-1-Beyond-Scalas-Standard-Library.pdf)
+Slides are available [here](/slides/Meeting-1-Scala-for-Java-Programmers.pdf).
 
-+   [Scala for Java Programmers](/videos/Meeting-1-Scala-for-Java-Programmers.mp4)
-+   [Awesome Scala](/videos/Meeting-1-Awesome-Scala.mp4)
-+   [Beyond Scala's Standard Library](/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4)
+
+### Awesome Scala
+
+<video width="598" height="480" controls="controls">
+    <source src="/videos/Meeting-1-Awesome-Scala.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+Slides are available [here](/slides/Meeting-1-Awesome-Scala.pdf).
+
+
+### Beyond Scala's Standard Library
+
+<video width="598" height="480" controls="controls">
+    <source src="/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+Slides are available [here](/slides/Metting-1-Beyond-Scalas-Standard-Library.pdf).
