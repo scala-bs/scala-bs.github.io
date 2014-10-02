@@ -42,6 +42,7 @@ Wir hoffen, dass wir die meisten von euch nächsten Monat bei unserem zweiten Tr
 
 <video width="598" height="480" controls="controls">
     <source src="/videos/Meeting-1-Scala-for-Java-Programmers.mp4" type="video/mp4" />
+    <source src="/videos/Meeting-1-Scala-for-Java-Programmers.ogg" type="video/ogg" />
     Dein Browser unterstützt den video Tag nicht.
 </video>
 
@@ -52,6 +53,7 @@ Die Folien können [hier](/slides/Meeting-1-Scala-for-Java-Programmers.pdf) ange
 
 <video width="598" height="480" controls="controls">
     <source src="/videos/Meeting-1-Awesome-Scala.mp4" type="video/mp4" />
+    <source src="/videos/Meeting-1-Awesome-Scala.ogg" type="video/ogg" />
     Dein Browser unterstützt den video Tag nicht.
 </video>
 
@@ -62,6 +64,7 @@ Die Folien können [hier](/slides/Meeting-1-Awesome-Scala.pdf) angesehen werden.
 
 <video width="598" height="480" controls="controls">
     <source src="/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4" type="video/mp4" />
+    <source src="/videos/Metting-1-Beyond-Scalas-Standard-Library.ogg" type="video/ogg" />
     Dein Browser unterstützt den video Tag nicht.
 </video>
 
