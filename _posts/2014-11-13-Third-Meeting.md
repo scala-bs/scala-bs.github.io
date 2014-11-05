@@ -2,6 +2,7 @@
 pos: 35
 a: meeting3-en
 de: meeting3-de
+tags: meeting
 ---
 
 We are the **Scala Enthusiasts Braunschweig** – we are enthusiastic users of the programming language Scala.
