@@ -13,7 +13,7 @@ Das vierte Treffen wird am **18. Dezember 2014** stattfinden.
 Dieses Treffen wird zwei große Themen behandeln:
 In unserem ersten Vortrag stellt Simon Barthel das Konzept von Typklassen vor und deren Implementierung in Scala.
 Außerdem wird Felix Geilert in unserem zweiten Vortrag das bekannte MVC Webframework Play vorstellen.
-Weitere Informationen können unserem [Flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-12-18) entnommen werden.
+Weitere Informationen können unserem [Flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-12-18.pdf) entnommen werden.
 
 <dl>
     <dt>Datum</dt><dd>Donnerstag, 18. Dezember 2014</dd>

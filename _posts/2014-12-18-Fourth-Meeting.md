@@ -11,9 +11,10 @@ This is why we organize a meeting on approximately **every second Thursday each 
 At most meetings presentations are held but we will also have pair programming sessions and discussions.
 The fourth meeting will be held on **December 18th, 2014**.
 
-This meeting will cover two major topics: In our first talk, Simon Barthel will discuss the concept of type classes and its implementation in Scala.
+This meeting will cover two major topics:
+In our first talk, Simon Barthel will discuss the concept of type classes and its implementation in Scala.
 In the second talk Felix Geilert will introduce the renown MVC web framework Play.
-Please also refer to this meeting's [Flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-12-18).
+Please also refer to this meeting's [Flyer](http://scala-bs.de/meetings/Scala-Enthusiasts-Braunschweig-Meeting-2014-12-18.pdf).
 
 
 <dl>
