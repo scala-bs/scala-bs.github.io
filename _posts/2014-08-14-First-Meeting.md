@@ -41,32 +41,20 @@ We really hope to see most of you again next month for our second meeting!
 
 ### Scala for Java Programmers
 
-<video width="598" height="480" controls="controls">
-    <source src="/videos/Meeting-1-Scala-for-Java-Programmers.webm" type="video/webm" />
-    <source src="/videos/Meeting-1-Scala-for-Java-Programmers.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/r69aTk6oukw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 Slides are available [here](/slides/Meeting-1-Scala-for-Java-Programmers.pdf).
 
 
 ### Awesome Scala
 
-<video width="598" height="480" controls="controls">
-    <source src="/videos/Meeting-1-Awesome-Scala.webm" type="video/webm" />
-    <source src="/videos/Meeting-1-Awesome-Scala.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/RHTqcUK44uQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 Slides are available [here](/slides/Meeting-1-Awesome-Scala.pdf).
 
 
 ### Beyond Scala's Standard Library
 
-<video width="598" height="480" controls="controls">
-    <source src="/videos/Metting-1-Beyond-Scalas-Standard-Library.webm" type="video/webm" />
-    <source src="/videos/Metting-1-Beyond-Scalas-Standard-Library.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-</video>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Ddjxq1HfBPk" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 Slides are available [here](/slides/Metting-1-Beyond-Scalas-Standard-Library.pdf).
