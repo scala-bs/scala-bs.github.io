@@ -25,3 +25,13 @@ Further information can be found in this [flyer](http://scala-bs.de/meetings/Sca
 As always, we are looking forward to seeing you.
 Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) of TU Braunschweig for the location.
 If you want to learn more about Scala and us use the links at the bottom of this page.
+
+
+### Implicit Functions and Parameters in Scala
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/j9STAu9hDhQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+### Functional Basics in Scala
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/SAtY9KWGwOY" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

@@ -23,3 +23,13 @@ Danach beginnt Phiipp Wille seine Vortragsreihe über **Scala Basics** mit dem V
 Wir freuen uns über jeden Teilnehmer.
 Unser besonderer Dank geht an den [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) der TU Braunschweig, der uns die Räumlichkeiten zur Verfügung stellt. 
 Wer mehr über uns erfahren möchte sollte sich die Links unter diesem Artikel ansehen.
+
+
+### We are Many: Introduction to Akka
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/mX2NEHOuKz8" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+### Scala Basics: Expressions
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JeidLZFKiLw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
