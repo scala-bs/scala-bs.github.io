@@ -25,3 +25,13 @@ Afterwards, Philipp Wille begins a talk series about **Scala Basics** with the f
 As always, we are looking forward to seeing you.
 Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) of TU Braunschweig for the location.
 If you want to learn more about Scala and us use the links at the bottom of this page.
+
+
+### We are Many: Introduction to Akka
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/mX2NEHOuKz8" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+### Scala Basics: Expressions
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JeidLZFKiLw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
