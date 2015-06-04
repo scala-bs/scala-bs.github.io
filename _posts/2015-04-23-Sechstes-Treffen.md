@@ -8,7 +8,7 @@ Wir sind die **Scala Enthusiasten Braunschweig** und wir sind begeisterte Nutzer
 Unser Ziel ist es, diese Begeisterung an interessierte Programmierer weiterzugeben und uns mit ihnen auszutauschen.
 Aus diesem Grund organisieren wir etwa jeden **zweiten Donnerstag jeden Monats** ein Treffen.
 An den meisten Treffen werden Vorträge gehalten, aber es sind auch Pair Programming Sessions und Diskussionsrunden geplant.
-Das fünfte Treffen wird am **23. April 2015** stattfinden.
+Das sechste Treffen wird am **23. April 2015** stattfinden.
 
 Dieses Treffen wird zwei große Themen behandeln:
 In unserem ersten Vortrag **We are Many** stellt Felix Geilert das Actor Framework Akka vor.

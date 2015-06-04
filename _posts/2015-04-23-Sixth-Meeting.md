@@ -9,7 +9,7 @@ We are the **Scala Enthusiasts Braunschweig** – we are enthusiastic users of t
 Our goals are communicating our excitement to interested programmers and exchanging views on programming.
 This is why we organize a meeting on approximately **every second Thursday each month**.
 At most meetings presentations are held but we will also have pair programming sessions and discussions.
-The fourth meeting will be held on **April 23rd, 2015**.
+The sixth meeting will be held on **April 23rd, 2015**.
 
 This meeting will repeat the topics from the last meeting:
 In our first talk, Felix Geilert will discuss the actors framework Akka in his talk **We are Many**.
