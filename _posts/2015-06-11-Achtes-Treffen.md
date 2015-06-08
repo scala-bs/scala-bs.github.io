@@ -6,7 +6,7 @@ en: meeting8-en
 
 Wir sind die **Scala Enthusiasten Braunschweig** und wir sind begeisterte Nutzer der Programmiersprache Scala.
 Unser Ziel ist es, diese Begeisterung an interessierte Programmierer weiterzugeben und uns mit ihnen auszutauschen.
-Aus diesem Grund organisieren wir etwa **jeden zweiten Donnerstag jeden zweiten Monats** ein Treffen.
+Aus diesem Grund organisieren wir etwa **jeden zweiten Donnerstag jeden zweiten Monat** ein Treffen.
 An den meisten Treffen werden Vorträge gehalten, aber es gibt auch Pair Programming Sessions und Diskussionsrunden.
 Das achte Treffen wird am **11. Juni 2015** stattfinden.
 
