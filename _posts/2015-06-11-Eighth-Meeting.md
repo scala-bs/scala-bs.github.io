@@ -25,3 +25,13 @@ Afterwards, Yevgen Pikus talks about **Apache Spark – Big Data in Scala**.
 As always, we are looking forward to seeing you.
 Special thanks go to the [Fachgruppenrat Informatik](http://fginfo.cs.tu-bs.de) of TU Braunschweig for the location.
 If you want to learn more about Scala and us use the links at the bottom of this page.
+
+
+### ScalaTest: this.talk should be "Good" (Meeting 8 Talk 1)
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/4AONRWedwD8" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+### Apache Spark: Big Data in Scala (Meeting 8 Talk 2)
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/N6CjsqHcBE4" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
